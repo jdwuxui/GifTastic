@@ -20,10 +20,43 @@
 
 </head>
 <body>
-    
 
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+          <img src="https://media.giphy.com/media/h2MLtoOjxtkGY/giphy.gif" width="30" height="30" class="d-inline-block align-top rounded" alt="wow reaction gif"> Wow, it's GifTastic
+        </a>
+    </nav>
+
+    <div class="container">
+        <!-- Gif buttons go here -->
+        <div id="buttons-div"></div>
+
+        <div class="row">
+
+            <div class="col-md-8" id="gifs">The will be a gifs column</div>
+
+            <div class="col-md-4">
+
+                <form id="topic-form">
+
+                    <label for="topic-input">Add a topic!</label>
+                    
+                    <input type="text" id="topic-input"><br>
+
+                    <!-- Button triggers user entered topic to be added -->
+                    <input id="add-topic" type="submit" value="Add a topic!">
+                </form>
+                      
+            </div>            
+        </div>        
+    </div>
+                   
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>   
+
+    <!-- Custom Script -->
+    <script type="text/javascript" src="assets/javascript/gifapp.js"></script>      
+
 </body>
 </html>

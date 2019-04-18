@@ -1,0 +1,23 @@
+body {
+    background-image: url("https://media.giphy.com/media/eoxomXXVL2S0E/giphy.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#buttonsRow {
+    background-color: #292929;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #ffffff;
+}
+
+.col-md-8, .col-md-4 {
+    background-color: #f6f6f67a;
+}
+
+button,
+div,
+form,
+input {
+  margin: 10px;
+}
