@@ -1,7 +1,7 @@
 body {
-    background-image: url("https://media.giphy.com/media/eoxomXXVL2S0E/giphy.gif");
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #c2d1e5;
 }
 
 #buttonsRow {
